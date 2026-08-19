@@ -1,6 +1,7 @@
 SHELL := /bin/bash
 
 .PHONY: setup \
+	docs-prepare \
 	docs-build docs-serve docs-up docs-down docs-clean \
 	serve build clean \
 	validate sync-catalog sync-theme
@@ -8,12 +9,17 @@ SHELL := /bin/bash
 setup:
 	python3 -m pip install -r requirements.txt
 
+docs-prepare:
+	bash ./sync-shared-theme.sh --prepare-only
+
 docs-serve:
+	$(MAKE) docs-prepare
 	$(MAKE) sync-theme
 	$(MAKE) sync-catalog
 	mkdocs serve
 
 docs-build:
+	$(MAKE) docs-prepare
 	$(MAKE) sync-theme
 	$(MAKE) sync-catalog
 	mkdocs build --strict
