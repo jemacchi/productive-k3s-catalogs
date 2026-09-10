@@ -2,7 +2,7 @@ apiVersion: catalogs.productive-k3s.io/v1alpha1
 kind: ProductiveK3SCatalog
 metadata:
   name: productive-k3s-catalog
-  generatedAt: "2026-09-10T11:47:56Z"
+  generatedAt: "2026-09-10T13:49:50Z"
 entries:
   - id: argocd
     name: argocd
@@ -276,11 +276,11 @@ entries:
     visibility: public
     category: cloud
     description: "aws-single-node-basic profile packaged for Productive K3S (cloud, opentofu engine)."
-    version: c71c50b
+    version: e3c32f4
     sourceRepository: productive-k3s-profiles
     artifact:
       type: tgz
-      url: https://downloads.productive-k3s.io/infra/aws-single-node-basic-c71c50b.tgz
+      url: https://downloads.productive-k3s.io/infra/aws-single-node-basic-e3c32f4.tgz
     install:
       requiresLocalOverrides: true
       inputs:
@@ -309,11 +309,11 @@ entries:
     visibility: public
     category: cloud
     description: "gcp-basic profile packaged for Productive K3S (cloud, opentofu engine)."
-    version: c71c50b
+    version: e3c32f4
     sourceRepository: productive-k3s-profiles
     artifact:
       type: tgz
-      url: https://downloads.productive-k3s.io/infra/gcp-basic-c71c50b.tgz
+      url: https://downloads.productive-k3s.io/infra/gcp-basic-e3c32f4.tgz
     install:
       requiresLocalOverrides: true
       inputs:
@@ -397,11 +397,11 @@ entries:
     visibility: public
     category: cloud
     description: "hetzner-basic profile packaged for Productive K3S (cloud, opentofu engine)."
-    version: c71c50b
+    version: e3c32f4
     sourceRepository: productive-k3s-profiles
     artifact:
       type: tgz
-      url: https://downloads.productive-k3s.io/infra/hetzner-basic-c71c50b.tgz
+      url: https://downloads.productive-k3s.io/infra/hetzner-basic-e3c32f4.tgz
     install:
       requiresLocalOverrides: true
       inputs:
@@ -480,11 +480,11 @@ entries:
     visibility: public
     category: cloud
     description: "oci-arm profile packaged for Productive K3S (cloud, opentofu engine)."
-    version: c71c50b
+    version: e3c32f4
     sourceRepository: productive-k3s-profiles
     artifact:
       type: tgz
-      url: https://downloads.productive-k3s.io/infra/oci-arm-c71c50b.tgz
+      url: https://downloads.productive-k3s.io/infra/oci-arm-e3c32f4.tgz
     install:
       requiresLocalOverrides: true
       inputs:
@@ -583,11 +583,11 @@ entries:
     visibility: public
     category: edge
     description: "on-prem-arm profile packaged for Productive K3S (edge, ansible engine)."
-    version: c71c50b
+    version: e3c32f4
     sourceRepository: productive-k3s-profiles
     artifact:
       type: tgz
-      url: https://downloads.productive-k3s.io/infra/on-prem-arm-c71c50b.tgz
+      url: https://downloads.productive-k3s.io/infra/on-prem-arm-e3c32f4.tgz
     install:
       requiresLocalOverrides: true
       inputs:
@@ -611,11 +611,11 @@ entries:
     visibility: public
     category: edge
     description: "on-prem-basic profile packaged for Productive K3S (edge, ansible engine)."
-    version: c71c50b
+    version: e3c32f4
     sourceRepository: productive-k3s-profiles
     artifact:
       type: tgz
-      url: https://downloads.productive-k3s.io/infra/on-prem-basic-c71c50b.tgz
+      url: https://downloads.productive-k3s.io/infra/on-prem-basic-e3c32f4.tgz
     install:
       requiresLocalOverrides: true
       inputs:
@@ -644,11 +644,11 @@ entries:
     visibility: public
     category: local
     description: "multipass-1-server-2-agents profile packaged for Productive K3S (local, opentofu engine)."
-    version: c71c50b
+    version: e3c32f4
     sourceRepository: productive-k3s-profiles
     artifact:
       type: tgz
-      url: https://downloads.productive-k3s.io/infra/multipass-1-server-2-agents-c71c50b.tgz
+      url: https://downloads.productive-k3s.io/infra/multipass-1-server-2-agents-e3c32f4.tgz
     install:
       requiresLocalOverrides: false
       inputs:
